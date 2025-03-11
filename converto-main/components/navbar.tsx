@@ -22,6 +22,11 @@ export default function Navbar({ }): any {
                         About
                     </Button>
                 </Link>
+                <Link href="/compress">
+                    <Button variant="ghost" className="font-semibold text-md">
+                        Compress Files
+                    </Button>
+                </Link>
                 <Link href="/privacy-policy">
                     <Button variant="ghost" className="font-semibold text-md">
                         Privacy Policy
@@ -65,6 +70,13 @@ export default function Navbar({ }): any {
                                     <Link href="/about">
                                         <Button variant="link" className="w-full font-semibold text-md">
                                             About
+                                        </Button>
+                                    </Link>
+                                </SheetTrigger>
+                                <SheetTrigger asChild>
+                                    <Link href="/compress">
+                                        <Button variant="link" className="w-full font-semibold text-md">
+                                            Compress Files
                                         </Button>
                                     </Link>
                                 </SheetTrigger>

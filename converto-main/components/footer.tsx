@@ -31,7 +31,7 @@ export default function Footer() {
                 </div>
 
                 <div className="text-sm text-center text-muted-foreground">
-                    MADE WITH <Link href="https://github.com/vrushab123" className="font-bold text-purple-500 hover:text-primary">VRUSHAB</Link>
+                    MADE BY <Link href="https://github.com/vrushab123" className="font-bold text-purple-500 hover:text-primary">VRUSHAB</Link>
                 </div>
 
                 {/* Bottom section with copyright */}
